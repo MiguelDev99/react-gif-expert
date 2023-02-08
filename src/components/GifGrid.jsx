@@ -12,7 +12,7 @@ export const GifGrid = ({category}) => {
   return ( 
   <>
     <h3>{category}</h3>
-    {
+    {//esto es para mandar el mensaje de cargando...
       isLoading && (<h2>Cargando...</h2>)//este es un if corto, los parentesis se ejecutan si la condicion es verdadera, sino no ejecuta nada
     }
 
